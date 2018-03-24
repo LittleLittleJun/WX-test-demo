@@ -1,0 +1,13 @@
+/*
+标签内属性值时布尔型时，设置为false，要用{{false}}。
+标签隐藏时，用 wx:if={{false}}
+阻止冒泡：用catch，bind冒泡
+  */
+
+text {
+  font-family: MircroSoft Yahei;
+  font-size: 24rpx;
+}
+.text-center {
+  text-align: center;
+}

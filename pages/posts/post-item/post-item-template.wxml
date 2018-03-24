@@ -1,0 +1,17 @@
+<!--pages/posts/post-item/post-item-template.wxml-->
+<template name="postItem">
+  <view class='post-contsiner'>
+    <view class='post-auto-data'>
+      <image src='/images/avatar/2.png'></image>
+      <text>{{title}}</text>
+    </view>
+    <image src='{{image}}' class='post-image'></image>
+    <text class='post-content'>{{content}}</text>
+    <view class='post-like'>
+      <image src='../../images/icon/chat.png'></image>
+      <text>92</text>
+      <image src='../../images/icon/view.png'></image>
+      <text>65</text>
+    </view>
+  </view>
+</template> 

@@ -1,0 +1,15 @@
+<!--pages/movies/movie-list/movies-list.wxml-->
+<import src="../move/move-template.wxml" />
+<template name="moveListTemplate">
+  <view>
+     <view>
+      <text>正在热饮</text>
+      <view>
+        <text>更多</text>
+        <image src='/images/icon/arrow-right.png' />
+      </view>
+    </view> 
+    <template is="moveTemplate" />
+    <template is="moveTemplate" />
+  </view>
+</template>

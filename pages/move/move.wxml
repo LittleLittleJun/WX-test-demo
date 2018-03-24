@@ -1,0 +1,7 @@
+<!--pages/movies/movies.wxml-->
+<import src="move-list/move-list.wxml" />
+<view>
+  <template is="moveListTemplate"/>
+  <template is="moveListTemplate"/>
+  <template is="moveListTemplate"/>
+</view>

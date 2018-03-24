@@ -1,0 +1,9 @@
+<!--pages/movies/move-tem/move-tem.wxml-->
+<import src="../move-stars/move-stars.wxml" />
+<template name="moveTemplate">
+  <view>
+    <image src='/images/wx.png'></image>
+    <text>你的名字</text>
+    <template is="starsTemplate" />
+  </view>
+</template>

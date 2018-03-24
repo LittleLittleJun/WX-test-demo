@@ -1,0 +1,33 @@
+<!--pages/test/test.wxml-->
+<view>
+  <view>{{year}}年{{month}}月{{day}}日</view>
+  <picker-view indicator-style="height: 50px;" style="width: 100%; height: 300px;" value="{{value}}" bindchange="bindChange">
+    <picker-view-column>
+      <view wx:for="{{years}}" style="line-height: 50px">{{item}}年</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{months}}" style="line-height: 50px">{{item}}月</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{days}}" style="line-height: 50px">{{item}}日</view>
+    </picker-view-column>
+  </picker-view>
+</view>
+
+<radio-group class="radio-group" bindchange="radioChange">
+  <label class="radio" wx:for="{{items}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</radio-group>
+<radio-group>
+<radio name="fengkangh">sdfsdfs</radio>
+<radio name="jujn">343254</radio>
+</radio-group>
+<radio name="fengkangh" checked='{{isChecked}}' bindtap='isChecked'>sdfsdfs</radio>
+<radio name="jujn" checked='{{isChecked}}' bindtap='isChecked'>343254</radio>
+
+<view class="btn-area">
+  <navigator url="/pages/posts/post" hover-class="navigator-hover">跳转到新页面</navigator>
+  <navigator url="/pages/welcome/welcome" open-type="redirect" hover-class="other-navigator-hover">在当前页打开</navigator>
+  <navigator url="/pages/posts/post-detail/post-detail" open-type="switchTab" hover-class="other-navigator-hover">切换 Tab</navigator>
+</view>

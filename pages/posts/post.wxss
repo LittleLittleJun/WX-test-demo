@@ -1,0 +1,12 @@
+@import "post-item/post-item-template.wxss"
+
+.banner image {
+  width: 100%;
+  height: 500rpx;
+}
+.banner .text-center {
+  line-height: 400rpx;
+  height:100%;
+  background: #567;
+  opacity: 0.5;
+}
