@@ -1,15 +1,50 @@
 <!--pages/movies/movie-list/movies-list.wxml-->
-<import src="../move/move-template.wxml" />
+<import src="../move-template/move-template.wxml" />
 <template name="moveListTemplate">
-  <view>
-     <view>
-      <text>正在热饮</text>
-      <view>
-        <text>更多</text>
-        <image src='/images/icon/arrow-right.png' />
+  <view class='movie-list-container'>
+     <view class="inner-container">
+      <view class='movie-head'>
+        <text class="slogan">正在热映</text>
+        <view class='more'>
+          <text class='more-text'>更多</text>
+          <image class='more-img' src='/images/icon/arrow-right.png' />
+        </view>
       </view>
+      
+      <view class='movies-container' catchtap="toSport">
+        <view class="movie-container">
+          <image class="movie-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1522167931456&di=5ec988003c2b7c434456727c895e5dc2&imgtype=0&src=http%3A%2F%2Fimage.tupian114.com%2F20121114%2F09303897.jpg"></image>
+          <text class="movie-title">画皮画皮</text>
+          <template is="starsTemplate" />
+        </view>
+      </view>
+
+      <view class='movies-container'>
+        <view class="movie-container">
+          <image class="movie-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1522167931452&di=c5f05b065eadde9fc68a41374f003d60&imgtype=0&src=http%3A%2F%2Fimage12.m1905.cn%2Fmapps%2Fuploadfile%2Fedu%2F2014%2F0521%2Fthumb_0_800_400_2014052103013229344.jpg"></image>
+          <text class="movie-title">大地震</text>
+          <template is="starsTemplate" />
+        </view>
+      </view>
+
+      <view class='movies-container'>
+        <view class="movie-container">
+          <image class="movie-img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1522167931454&di=a1ed8d5b416a092d237f8bf79d8ac886&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01285456e176b432f875520f248b33.jpg%401280w_1l_2o_100sh.jpg"></image>
+          <text class="movie-title">山河故人</text>
+          <template is="starsTemplate" />
+        </view>
+      </view>
+
+      <view class='movies-container'>
+        <view class="movie-container">
+          <image class="movie-img" src="/images/post/sls.jpg"></image>
+          <text class="movie-title">这里是标题</text>
+          <template is="starsTemplate" />
+        </view>
+      </view>
+
     </view> 
-    <template is="moveTemplate" />
-    <template is="moveTemplate" />
+    
+     <!-- <template is="moveTemplate" /> -->
   </view>
 </template>

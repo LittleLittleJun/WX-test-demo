@@ -8,7 +8,9 @@
     "pages/move/move",
     "pages/move/move-list/move-list",
     "pages/move/move-stars/move-stars",
-    "pages/move/move-template/move-template"
+    "pages/move/move-template/move-template",
+    "pages/sport/sport",
+    "pages/sport/list-item/list-item"
   ],
   "window": {
     "navigationBarBackgroundColor": "#405f80"

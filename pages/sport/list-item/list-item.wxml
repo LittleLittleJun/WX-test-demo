@@ -1,0 +1,18 @@
+<template name="list-item">
+  <view class='list-item'>
+    <image src="/images/post/cat.png" class='item-bg'></image>
+    <view class='item-contain'>
+      <view class="item-collect">
+        <image src='/images/icon/btn_sel_collect.png'></image>
+      </view>
+      <view class='item-text'>
+        <image src='/images/avatar/5.png' class="item-icon"></image>
+        <view class='float-left'>
+          <view class='item-title-1'>movem 精品健身</view>
+          <view class='item-title-2'>室内单车</view>
+        </view>
+        <view class="float-right item-distance">1066km</view>
+      </view>
+    </view>
+  </view>
+</template>

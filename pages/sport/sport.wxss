@@ -1,0 +1,80 @@
+/* pages/sport/sport.wxss */
+
+.container {
+  background: #fff;
+}
+
+.search {
+  background: #efefef;
+  display: flex;
+  flex-direction: row;
+  margin: 20rpx;
+  border-radius: 10rpx;
+  padding: 10rpx;
+}
+
+.search image {
+  width: 40rpx;
+  height: 40rpx;
+  padding: 8rpx;
+}
+
+.search input {
+  font-size: 30rpx;
+  width: 100%;
+}
+
+.item-contain {
+  height: 320rpx;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 10000;
+}
+
+.item-contain .item-collect {
+  width: 100%;
+  text-align: right;
+}
+
+.item-contain .item-collect image {
+  width: 60rpx;
+  height: 60rpx;
+  padding: 20rpx 25rpx 0;
+}
+
+.item-contain .item-text {
+  width: 100%;
+  margin-top: 90rpx;
+  color: #fff;
+}
+
+.item-contain .item-icon {
+  width: 90rpx;
+  height: 90rpx;
+  float: left;
+  border-radius: 50%;
+  padding: 0 20rpx 0 25rpx;
+}
+
+.item-contain .item-title-1 {
+  font-size: 30rpx;
+  font-weight: bold;
+}
+
+.item-contain .item-title-2 {
+  font-size: 20rpx;
+}
+
+.item-contain .item-distance {
+  padding: 20rpx;
+  font-size: 20rpx;
+}
+
+.list-item {
+  position: relative;
+}
+
+.list-item .item-bg {
+  height: 320rpx;
+}

@@ -42,3 +42,7 @@
     display:flex;
     flex-direction: row;
 }
+
+.movies-container .movies-items{
+
+}

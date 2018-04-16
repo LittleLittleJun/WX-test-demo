@@ -5,8 +5,7 @@
       <image src='/images/icon/star.png' />
       <image src='/images/icon/star.png' />
       <image src='/images/icon/star.png' />
-      <image src='/images/icon/star.png' />
-      <text class='star-score'>rferf</text>
+      <text class='star-score'>98</text>
     </view>
   </view>
 </template>

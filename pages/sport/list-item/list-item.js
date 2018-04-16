@@ -1,4 +1,4 @@
-// pages/posts/post.wxml.js
+// pages/sport/list-item/list-item.js
 Page({
 
   /**

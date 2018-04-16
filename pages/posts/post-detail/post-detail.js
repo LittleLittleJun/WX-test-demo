@@ -16,13 +16,11 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log(app.golableData.currentPlayMusic)
     
     var postId = options.id;
     this.setData({
       postId: postId
     })
-    console.log(this.data.postId)
     var postData2 = poData.postList[postId];
     this.setData({
       postData: postData2
@@ -57,7 +55,6 @@ Page({
       })
       app.golableData.g_isPlayingMusic=true;
       app.golableData.currentPlayMusic = that.data.postId
-      console.log(app.golableData.currentPlayMusic + "//" + that.data.postId)
     })
     wx.onBackgroundAudioPause(function () {
       that.setData({
@@ -65,7 +62,6 @@ Page({
       })
       app.golableData.g_isPlayingMusic = false;
       app.golableData.currentPlayMusic = null 
-      console.log(app.golableData.currentPlayMusic + "//" + that.data.postId)
     })
   },
   onCollectionTap: function (e) {
